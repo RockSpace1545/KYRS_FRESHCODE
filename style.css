@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@font-face {
+/* @font-face {
     font-family: 'Roboto';
     src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
-}
+} */
 /* Header styles */
 body {
     font-family: Montserrat;
+    font-size: 1em;
+}
+.menu-item{
+    font-weight: 400;
+    font-size: 1.125em;
+}
+.blue-button{
+    font-weight: 400;
+    font-size: 1.125em;
+}
+
+/* First Screen */
+.first-screen{
+    background-image: url('./assets/images/Frame121461.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    width: 100%;
+    height: 100vh;
+}
+
+.main-title{
+    font-weight: 800;
+    font-size: 4.06em;
+}
+
+.main-descpirtion{
+
 }
 
 
-
-
-
-
-
-
+/* Description Screen  */
+.description-header{
+    font-weight: 400;
+    font-size: 3.75em;
+}
+.description-text1{
+    font-weight: 400;
+    font-size: 1.68em;
+}
+.description-text1{
+    font-weight: 400;
+    font-size: 1.25em;
+}
+.description-block-header{
+    font-weight: 400;
+    font-size: 2.875em;
+}
+.description-block-text{
+    font-weight: 400;
+    font-size: 1.25em;
+}
 /* 
 
 
