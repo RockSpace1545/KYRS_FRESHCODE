@@ -1,45 +1,20 @@
-p {
-    color: green;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+}
+/* Header styles */
+body {
+    font-family: Montserrat;
 }
 
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-}
-
-#middle-par{
-    color: red;
-}
-
-.gold-text, p, h2 {
-    color: gold;
-}
-
-.italic {
-    font-style: italic;
-}
-
-h2.gold-text {
-    color: blue;
-}
-
-label[for="mail-input"] {
-    color: brown;
-}
-
-article h2 {
-    background-color: green;
-}
-
-article > h2 {
-    background-color: saddlebrown;
-}
 
 
-p + p {
-    background-color: gainsboro;
-}
+
+
+
+
 /* 
 
 
