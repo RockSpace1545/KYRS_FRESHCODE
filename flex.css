@@ -1,0 +1,38 @@
+.parent{
+    height: 600px;
+    border: 2px solid black;
+    display: flex; /*вмикає flex для блоку*/
+    flex-direction: row; /*напрямок вісі */
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    background-color: forestgreen;
+    border: 2px solid blue;
+    color: white;
+    font-size: 25px;
+}
+
+/* 
+Flexbox Layout
+
+Parent Container
+
+Головна вісь (main axis)
+Якщо flex-direction дорівнює row - головна вісь зліва направо, побічна - (across axis) зверху вниз
+Якщо flex-direction дорівнює column - головна вісь зверху вниз, побічна - (across axis) зліва направо
+Якщо flex-direction дорівнює row-reverse - головна вісь справа наліво
+Якщо flex-direction дорівнює column-reverse - головна вісь знизу вверх
+justify-content: розташування дітей за головною віссюбатьківського контейнера
+flex-start - всі на початку осі
+flex-end - всі в кінці осі
+center - ро центру
+space-betwen - Х...Х...Х
+space-around - ..Х....Х....Х..
+space-evenly - ...X...X...X...
+
+align-items: розташування дітей за побічною віссю батьківського контейнера
+*/
