@@ -6,7 +6,6 @@
 /* Header styles */
 body {
     font-family: Montserrat;
-    font-size: 1em;
 }
 .menu-item{
     font-weight: 400;
@@ -45,7 +44,7 @@ body {
     font-weight: 400;
     font-size: 1.68em;
 }
-.description-text1{
+.description-text2{
     font-weight: 400;
     font-size: 1.25em;
 }
