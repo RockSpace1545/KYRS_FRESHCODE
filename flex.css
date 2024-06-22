@@ -42,7 +42,7 @@ Parent Container
 Якщо flex-direction дорівнює column - головна вісь зверху вниз, побічна - (across axis) зліва направо
 Якщо flex-direction дорівнює row-reverse - головна вісь справа наліво
 Якщо flex-direction дорівнює column-reverse - головна вісь знизу вверх
-justify-content: розташування дітей за головною віссюбатьківського контейнера
+justify-content: розташування дітей за головною віссю батьківського контейнера
 flex-start - всі на початку осі
 flex-end - всі в кінці осі
 center - ро центру

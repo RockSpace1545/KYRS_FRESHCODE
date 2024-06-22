@@ -3,21 +3,44 @@
     font-family: 'Roboto';
     src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
 } */
-/* Header styles */
+ 
 body {
     font-family: Montserrat;
+}
+
+
+/* Header styles */
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 2.2em, 3.94em;
+    justify-content: space-between;
+    padding: 2.36em 3.94em;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
 }
 .menu-item{
     font-weight: 400;
     font-size: 1.125em;
-    line-height: 1.09em;
-}
-.blue-button{
-    font-weight: 400;
-    font-size: 1.125em;
-    line-height: 1.09em;
+
+    margin-left: 3.1em;
 }
 
+.blue-button{
+    text-transform: uppercase; /* контент стає написанний капслоком */
+    font-weight: 400;
+    font-size: 1.125em;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+    margin-left: 1.3em;
+    border: 0px;
+    width: 14.66em;
+    height: 3.27em;
+}
 /* First Screen */
 .first-screen{
     background-image: url('./assets/images/Frame121461.png');
@@ -25,20 +48,26 @@ body {
     background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-screen-container{
+    width: 50%;
+    padding-left: 5.25em;
 }
 
 .main-title{
     font-weight: 800;
     font-size: 4.06em;
-    line-height: 3.74em;
     color: #FFFFFF;
-    ;
+    text-transform: uppercase;
 }
 
 .main-descpirtion{
     font-weight: 400;
     font-size: 1.25em;
-    line-height: 1.5em;
 }
 
 
@@ -47,36 +76,63 @@ body {
     font-size: 20px;
 }
 
+.description-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em 10.9em;
+}
 .description-block{
     background-color:#F1FDFF;
     background-repeat: no-repeat;
     background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
     width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+.image{
+    width: 29.25em;
+    height: 21.2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 3.1em;
 }
 
+.button-block{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em;
+}
+.block-content{
+    display: flex;
+    flex-direction: column;
+    padding: 6em 3.1em;
+}
 .description-header{
     font-weight: 400;
     font-size: 3em;
-    line-height: 4.5em;
+    text-transform: uppercase;
 }
 .description-text1{
     font-weight: 400;
-    line-height: 2.025em;
     font-size: 1.35em;
 }
 .description-text2{
     font-weight: 400;
-    line-height: 1.5em;
     color:#73A6B1;
 }
 .description-block-header{
     font-weight: 400;
     font-size: 2.875em;
-    line-height: 2.3em;
+    text-transform: uppercase;
 }
 .description-block-text{
     font-weight: 400;
-    line-height: 1.5em;
+}
+.white-button{
+    background-color: #FFFFFF;
 }
 /* 
 
