@@ -10,10 +10,12 @@ body {
 .menu-item{
     font-weight: 400;
     font-size: 1.125em;
+    line-height: 1.09em;
 }
 .blue-button{
     font-weight: 400;
     font-size: 1.125em;
+    line-height: 1.09em;
 }
 
 /* First Screen */
@@ -28,33 +30,53 @@ body {
 .main-title{
     font-weight: 800;
     font-size: 4.06em;
+    line-height: 3.74em;
+    color: #FFFFFF;
+    ;
 }
 
 .main-descpirtion{
-
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.5em;
 }
 
 
 /* Description Screen  */
+.description-screen{
+    font-size: 20px;
+}
+
+.description-block{
+    background-color:#F1FDFF;
+    background-repeat: no-repeat;
+    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    width: 100%;
+}
+
 .description-header{
     font-weight: 400;
-    font-size: 3.75em;
+    font-size: 3em;
+    line-height: 4.5em;
 }
 .description-text1{
     font-weight: 400;
-    font-size: 1.68em;
+    line-height: 2.025em;
+    font-size: 1.35em;
 }
 .description-text2{
     font-weight: 400;
-    font-size: 1.25em;
+    line-height: 1.5em;
+    color:#73A6B1;
 }
 .description-block-header{
     font-weight: 400;
     font-size: 2.875em;
+    line-height: 2.3em;
 }
 .description-block-text{
     font-weight: 400;
-    font-size: 1.25em;
+    line-height: 1.5em;
 }
 /* 
 

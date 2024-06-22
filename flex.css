@@ -4,7 +4,8 @@
     display: flex; /*вмикає flex для блоку*/
     flex-direction: row; /*напрямок вісі */
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
 }
 
 .item{
@@ -14,8 +15,23 @@
     border: 2px solid blue;
     color: white;
     font-size: 25px;
+    /* flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+    margin: 15px;
 }
 
+/* .third{
+    flex-grow: 5;
+}
+*/
+.fourth{
+    margin-left: auto;
+} 
+
+.fifth{
+    margin-left: auto;
+}
 /* 
 Flexbox Layout
 
@@ -35,4 +51,15 @@ space-around - ..Х....Х....Х..
 space-evenly - ...X...X...X...
 
 align-items: розташування дітей за побічною віссю батьківського контейнера
+stretch - розтягування елементів донизу на стільки, скільки дозволяє нам блок, в якому розташованні елементи
+flex-wrap: перенос елементів, які не влазять на наступний рядок
+
+
+
+
+-----------------
+Child items - властивості дітей
+flex-basis (базис) - потенційний розмір дитини за головною віссю
+flex-grow (рости) - коефіцієнт зростання розмірів, якщо у батька залишається вільний простір
+flex-shrink (стискатися) - коефіцієнт зменшення розмірів, якщо у розміри батька не поміщається суми всіх flex-basis дітей
 */
