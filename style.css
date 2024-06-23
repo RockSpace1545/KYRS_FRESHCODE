@@ -16,6 +16,12 @@ body {
     padding: 2.2em, 3.94em;
     justify-content: space-between;
     padding: 2.36em 3.94em;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
 
 .menu-list{
@@ -46,15 +52,17 @@ body {
     background-image: url('./assets/images/Frame121461.png');
     background-repeat: no-repeat;
     background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    background-position: bottom;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 15vh;
 }
 
 .first-screen-container{
-    width: 50%;
+    width: 35%;
     padding-left: 5.25em;
 }
 
@@ -63,11 +71,14 @@ body {
     font-size: 4.06em;
     color: #FFFFFF;
     text-transform: uppercase;
+    margin-bottom: 0.2em;
 }
 
 .main-descpirtion{
     font-weight: 400;
     font-size: 1.25em;
+    margin-bottom: 1em;
+    width: 24.2em;
 }
 
 
@@ -80,16 +91,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8em 10.9em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 22em;
+    padding-right: 10.9em;
+    width: 52.2em;
+    height: 11.25em;
 }
 .description-block{
     background-color:#F1FDFF;
     background-repeat: no-repeat;
     background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
-    width: 100%;
     display: flex;
     align-items: center;
     margin-bottom: 2.5em;
+    margin-left: 3.55em;
+    margin-right: 3.55em;
 }
 .image{
     width: 29.25em;
@@ -108,16 +125,24 @@ body {
 .block-content{
     display: flex;
     flex-direction: column;
-    padding: 6em 3.1em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    padding-left: 5em;
+    padding-right: 18em;
+    width: 26.35em;
+    height: 13.2em;
 }
 .description-header{
     font-weight: 400;
     font-size: 3em;
     text-transform: uppercase;
+    margin-bottom: 0.2em;
+    padding-left: 2em;
 }
 .description-text1{
     font-weight: 400;
     font-size: 1.35em;
+    margin-bottom: 0.3em;
 }
 .description-text2{
     font-weight: 400;
@@ -128,12 +153,74 @@ body {
     font-size: 2.875em;
     text-transform: uppercase;
 }
+
+.description-block-header1{
+    font-weight: 400;
+    font-size: 2.875em;
+    text-transform: uppercase;
+    width: 22.35em;
+}
+
 .description-block-text{
     font-weight: 400;
 }
 .white-button{
     background-color: #FFFFFF;
+    margin-left: 0;
 }
+
+/* Our Mission */
+
+.our-mission{
+    
+}
+
+.back-mission{
+    width: 93vw;
+    height: 11.55em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#F1FDFF;
+    margin-top: 45em;
+    margin-bottom: 8.14em;
+    margin-left: 3.22em;
+    margin-right: 3.22em;
+    position: relative;
+}
+
+.text-mission{
+    width: 20.6em;
+    height: 4.8em;
+    padding-left: 6.5em;
+    padding-top: 3.33em;
+    padding-bottom: 3.33em;
+    padding-right: 3.62em;
+}
+
+.img-mission1{
+    position: absolute;
+    margin-left: 60.81em;
+    width: 33vw;
+    height: 78vh;
+    z-index: 2;
+    padding-bottom: 32em;
+}
+
+.img-mission2{
+    position: absolute;
+    margin-left: 48.25em;
+    width: 52.2vw;
+    height: 56vh;
+    z-index: 1;
+    padding-bottom: 20em;
+}
+@media screen and (max-width: 500px){
+    .description-block{
+        flex-direction: column;
+    }
+}
+
 /* 
 
 
@@ -162,3 +249,4 @@ id якщо хочемо щоб був один унікальний елеме�
 ~ - загальний комбінатор сімблінгів(які нижче в потоці за вибрані елементи) - general sibling selector
 + - кобмінатор найближчого сімблінга - next sibling selectorWW
 */
+
