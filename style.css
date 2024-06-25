@@ -29,9 +29,14 @@ body {
     align-items: center;
 }
 .menu-item{
+    margin-left: 3.1em;
+}
+
+.link{
     font-weight: 400;
     font-size: 1.125em;
-    margin-left: 3.1em;
+    color: #000000;
+    text-decoration: none;
 }
 
 .blue-button{
@@ -105,13 +110,18 @@ body {
     margin-bottom: 2.5em;
     margin-left: 3.55em;
     margin-right: 3.55em;
+    height: 68vh;
 }
-.image{
+.image-block{
+    display: inline-block;
+    border-radius: 3%; 
+    overflow: hidden;     
+}
+
+.image-block img {
+    display: block;
     width: 35vw;
-    height: 43vh;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 3.1em;
+    height: auto;
 }
 
 .button-block{
@@ -362,8 +372,8 @@ body {
 }
 
 .yellow-button{
-    width: 32vw;
-    height: 8vh;
+    width: 27.2vw;
+    height: 3vh;
     background-color: #F9FADF;
     text-transform: none;
     margin-bottom: 1.55em;
@@ -376,9 +386,9 @@ body {
 }
 
 @media screen and (max-width: 501px){
-    .description-block{
+    /* .description-block{
         flex-direction: column;
-    }
+    } */
 }
 
 /* 

@@ -1,0 +1,818 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* @font-face {
+    font-family: 'Roboto';
+    src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+} */
+ 
+body {
+    font-family: Montserrat;
+}
+
+/* Header styles */
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 2.2em, 3.94em;
+    justify-content: space-between;
+    padding: 2.36em 3.94em;
+    position: fixed;
+    width: 92.2vw;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin-left: 3.1em;
+}
+
+.link{
+    font-weight: 400;
+    font-size: 1.125em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.blue-button{
+    text-transform: uppercase; /* контент стає написанний капслоком */
+    font-weight: 400;
+    font-size: 1.125em;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+    margin-left: 1.3em;
+    border: 0px;
+    width: 15vw;
+    height: 7vh;
+    font-family: Montserrat;
+}
+/* First Screen */
+.first-screen{
+    background-image: url('./assets/images/Frame121461.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container{
+    width: 35vw;
+    padding-left: 5.25em;
+}
+
+.main-title{
+    font-weight: 800;
+    font-size: 4.06em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+.main-descpirtion{
+    font-weight: 400;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    width: 26vw;
+}
+
+
+/* Description Screen  */
+.description-screen{
+    font-size: 20px;
+}
+
+.description-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    padding-left: 22em;
+    padding-right: 10.9em;
+    width: 56vw;
+}
+.description-block{
+    background-color:#F1FDFF;
+    background-repeat: no-repeat;
+    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+    margin-left: 3.55em;
+    margin-right: 3.55em;
+    height: 68vh;
+}
+.image-block{
+    display: inline-block;
+    border-radius: 3%; 
+    overflow: hidden;     
+}
+
+.image-block img {
+    display: block;
+    width: 35vw;
+    height: auto;
+}
+
+.button-block{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8em;
+}
+.block-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    padding-left: 5em;
+    padding-right: 18em;
+    width: 26vw;
+}
+.description-header{
+    font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    padding-left: 2em;
+}
+.description-text1{
+    font-weight: 400;
+    font-size: 1.35em;
+    margin-bottom: 0.3em;
+}
+.description-text2{
+    font-weight: 400;
+    color:#73A6B1;
+}
+.description-block-header{
+    font-weight: 400;
+    font-size: 2.875em;
+    text-transform: uppercase;
+}
+
+.description-block-header1{
+    font-weight: 400;
+    font-size: 2.875em;
+    text-transform: uppercase;
+    width: 32vw;
+}
+
+.description-block-text{
+    width: 29vw;
+    margin-top: 0.5em;
+    font-weight: 400;
+}
+.white-button{
+    background-color: #FFFFFF;
+    margin-left: 0;
+}
+
+/* Our Mission */
+
+
+.back-mission{
+    width: 93vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#F1FDFF;
+    margin-top: 20em;
+    margin-bottom: 8.14em;
+    margin-left: 3.22em;
+    margin-right: 3.22em;
+    position: relative;
+    font-size: 27px;
+}
+
+.text-mission{
+    width: 30vw;
+    height: 4.8vh;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 3.33em;
+    padding-right: 3.62em;
+    font-size: 1em;
+}
+
+.img-mission1{
+    position: absolute;
+    margin-left: 35.81em;
+    width: 32vw;
+    height: 78vh;
+    z-index: 2;
+    padding-bottom: 13em;
+}
+
+.img-mission2{
+    position: absolute;
+    margin-left: 29em;
+    width: 50vw;
+    height: 45vh;
+    z-index: 1;
+    padding-bottom: 5em;
+}
+
+.donats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10em;
+}
+
+.donats-header-text{
+    width: 60vw;
+    height: 10vh;
+    margin-left: 8em;
+}
+
+.donats-header{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    margin-left: 0.5em;
+}
+
+.donats-text{
+    color: #73A6B1;
+}
+
+.goal-text{
+    font-size: 1.35em;
+    margin-top: 2em;
+    margin-bottom: 0.85em;
+}
+
+.our-goal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.line{
+    height: 7vh;
+    border: 1.5px solid #9AD2DE;
+}
+
+.goal-number1{
+    margin-right: 0.15em;
+}
+
+.goal-number2{
+    margin: 0em 0.2em;
+}
+
+.goal-number3{
+    margin-left: 0.15em;
+}
+
+.goal-button{
+    width: 16vw;
+    font-size: 0.85em;
+    margin-bottom: 8em;
+}
+
+.footer{
+    background-color: #F9FADF;
+    width: 99vw;
+    height: 120vh;
+    font-size: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contacts-header{
+    font-size: 3em;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+.phone{
+    font-weight: 700;
+}
+
+.contacts-info{
+    margin-top: 3em;
+    width: 20vw;
+    height: 20vh;
+}
+
+.contacts-text{
+    margin-left: 0.3em;
+}
+
+.contacts-phone{
+    width: 2vw;
+    height: 4vh;
+    margin-bottom: 0.45em;
+}
+
+.contacts-telegram{
+    width: 2vw;
+    height: 4vh;
+    margin-top: 2.85em;
+    margin-right: 0.8em;
+    margin-bottom: 0.2;
+}
+
+.contacts-whatsapp{
+    width: 2vw;
+    height: 4vh;
+}
+
+.mailing-list{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 92vw;
+    height: 60vh;
+    background-color: #FFFFFF;
+    margin-left: 3.55em;
+    margin-top: 5em;
+}
+
+.image-email{
+    width: 33.364vw;
+    height: 47.7vh;
+    margin-top: 1em;
+}
+
+.mailing-list-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 16em;
+}
+
+.mailing-list-text{
+    font-size: 1.35em;
+    margin-bottom: 1.95em;
+}
+
+.yellow-button{
+    width: 27.2vw;
+    height: 3vh;
+    background-color: #F9FADF;
+    text-transform: none;
+    margin-bottom: 1.55em;
+    text-align: left;
+}
+
+.follow-button{
+    width: 32vw;
+    height: 8vh;
+}
+
+@media screen and (max-width: 501px){
+    /* .description-block{
+        flex-direction: column;
+    } */
+    body {
+        font-family: Montserrat;
+    }
+    
+    /* Header styles */
+    .header-container{
+        display: flex;
+        align-items: center;
+        padding: 2.2em, 3.94em;
+        justify-content: space-between;
+        padding: 8em 3.94em;
+        position: fixed;
+        width: 205vw;
+        background-color: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 3;
+    }
+    
+    .menu-list{
+        display: flex;
+        align-items: center;
+    }
+    .menu-item{
+        font-weight: 400;
+        font-size: 1.125em;
+        margin-left: 3.1em;
+        display: none;
+    }
+
+    .item{
+        display: block;
+    }
+    
+    .blue-button{
+        text-transform: uppercase; /* контент стає написанний капслоком */
+        font-weight: 400;   
+        font-size: 1.125em;
+        background-color: #7AE5FD;
+        padding: 1.15em 1.94em;
+        border-radius: 4.8rem;
+        margin-left: 42em;
+        border: 0px;
+        width: 40vw;
+        height: 12vh;
+        font-family: Montserrat;
+    }
+    .header-button{
+        margin-left: 42em;
+    }
+    /* First Screen */
+    .first-screen{
+        background-image: url('./assets/images/Frame121461.png');
+        background-repeat: no-repeat;
+        background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+        background-position: bottom;
+        width: 230%;
+        height: 120vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15vh;
+    }
+    
+    .first-screen-container{
+        width: 150vw;
+        padding-left: 5.25em;
+    }
+    
+    .main-title{
+        font-weight: 800;
+        font-size: 3.5em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-bottom: 0.2em;
+        margin-top: 2.5em;
+    }
+    
+    .main-descpirtion{
+        font-weight: 400;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        width: 60vw;
+    }
+    
+    
+    /* Description Screen  */
+    .description-screen{
+        font-size: 25px;
+    }
+    
+    .description-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8em;
+        padding-bottom: 8em;
+        padding-left: 12em;
+        padding-right: 10.9em;
+        width: 120vw;
+        text-align: center;
+    }
+    .description-block{
+        background-color:#F1FDFF;
+        background-repeat: no-repeat;
+        background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2.5em;
+        margin-left: 3.55em;
+        margin-right: 3.55em;
+        width: 200vw;
+        text-align: center;
+        padding-bottom: 3.5em;
+    }
+    .image{
+        width: 85vw;
+        height: 60vh;
+        padding-bottom: 2em;
+        padding-left: 6em;
+    }
+    
+    .button-block{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8em;
+        margin-left: -3.5em;
+    }
+    .block-content{
+        display: flex;
+        flex-direction: column;
+        padding-top: 6em;
+        padding-bottom: 3em;
+        padding-left: 5em;
+        padding-right: 18em;
+        width: 26vw;
+    }
+    .description-header{
+        font-weight: 400;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        margin-bottom: 0.2em;
+        padding-right: 2em;
+        text-align: center;
+    }
+    .description-text1{
+        font-weight: 400;
+        font-size: 1.35em;
+        margin-bottom: 0.3em;
+    }
+    .description-text2{
+        font-weight: 400;
+        color:#73A6B1;
+    }
+    .description-block-header{
+        font-weight: 400;
+        font-size: 2.25em;
+        text-transform: uppercase;
+        width: 100vw;
+    }
+    
+    .description-block-header1{
+        font-weight: 400;
+        font-size: 2.25em;
+        text-transform: uppercase;
+        width: 100vw;
+    }
+    
+    .description-block-text{
+        width: 29vw;
+        margin-top: 0.5em;
+        font-weight: 400;
+        width: 100vw;
+    }
+    .white-button{
+        background-color: #FFFFFF;
+        margin-left: 0;
+    }
+    
+    /* Our Mission */
+    
+    
+    .back-mission{
+        width: 210vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color:#F1FDFF;
+        margin-top: 10em;
+        margin-bottom: 8.14em;
+        margin-left: 3.22em;
+        margin-right: 3.22em;
+        position: relative;
+        font-size: 20px;
+    }
+    
+    .text-mission{
+        width: 80vw;
+        height: 4.8vh;
+        padding-left: 2em;
+        padding-top: 0.5em;
+        padding-bottom: 3.33em;
+        font-size: 1.25em;
+    }
+    
+    .img-mission1{
+        position: absolute;
+        margin-left: 36em;
+        width: 50vw;
+        height: 50vh;
+        z-index: 2;
+        padding-bottom: 5em;
+    }
+    
+    .img-mission2{
+        position: absolute;
+        margin-left: 35em;
+        width: 60vw;
+        height: 45vh;
+        z-index: 1;
+        padding-bottom: 2em;
+    }
+    
+    .donats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 10em;
+    }
+    
+    .donats-header-text{
+        width: 100vw;
+        height: 50vh;
+        margin-left: 33em;
+        text-align: center;
+    }
+    
+    .donats-header{
+        font-size: 2.5em;
+        text-transform: uppercase;
+        margin-bottom: 0.2em;
+        margin-left: 0.5em;
+    }
+    
+    .donats-text{
+        color: #73A6B1;
+    }
+    
+    .goal-text{
+        font-size: 1.35em;
+        margin-bottom: 0.85em;
+        text-align: center;
+        margin-top: -3em;
+        margin-left: 24em;
+        width: 80vw;
+    }
+    
+    .our-goal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 3em;
+        margin-bottom: 1em;
+        padding-left: 11em;
+    }
+    
+    .line{
+        height: 7vh;
+        border: 1.5px solid #9AD2DE;
+    }
+    
+    .goal-number1{
+        margin-right: 0.15em;
+    }
+    
+    .goal-number2{
+        margin: 0em 0.2em;
+    }
+    
+    .goal-number3{
+        margin-left: 0.15em;
+    }
+    
+    .goal-button{
+        width: 40vw;
+        font-size: 0.85em;
+        margin-bottom: 8em;
+        margin-right: 5em;
+    }
+    
+    .footer{
+        background-color: #F9FADF;
+        width: 225vw;
+        height: 120vh;
+        font-size: 20px;
+    }
+    
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .contacts-header{
+        font-size: 3em;
+        margin-right: 5em;
+        margin-top: 1em;
+    }
+    
+    .phone{
+        font-weight: 700;
+    }
+    
+    .contacts-info{
+        margin-top: 3em;
+        width: 20vw;
+        height: 20vh;
+    }
+    
+    .contacts-text{
+        margin-left: 0.3em;
+    }
+    
+    .contacts-phone{
+        width: 2vw;
+        height: 4vh;
+        margin-bottom: 0.45em;
+    }
+    
+    .contacts-telegram{
+        width: 2vw;
+        height: 4vh;
+        margin-top: 2.85em;
+        margin-right: 0.8em;
+        margin-bottom: 0.2;
+    }
+    
+    .contacts-whatsapp{
+        width: 2vw;
+        height: 4vh;
+    }
+    
+    .mailing-list{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 92vw;
+        height: 60vh;
+        background-color: #FFFFFF;
+        margin-left: 3.55em;
+        margin-top: 5em;
+    }
+    
+    .image-email{
+        width: 33.364vw;
+        height: 47.7vh;
+        margin-top: 1em;
+    }
+    
+    .mailing-list-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3em;
+        width: 30vw;
+        height: 15vh;
+        margin-left: 16em;
+    }
+    
+    .mailing-list-text{
+        font-size: 1.35em;
+        margin-bottom: 1.95em;
+    }
+    
+    .yellow-button{
+        width: 32vw;
+        height: 8vh;
+        background-color: #F9FADF;
+        text-transform: none;
+        margin-bottom: 1.55em;
+        text-align: left;
+    }
+    
+    .follow-button{
+        width: 32vw;
+        height: 8vh;
+    }
+
+    .header-button{
+        margin-left: 30em;
+    }
+}
+
+/* 
+
+селектор * - для всіх елементів на сторінці отримують певні правила
+
+id якщо хочемо щоб був один унікальний елемент на сторінці #id - позначення
+
+Каскадність - чим нижче тим важливіше, за умови однакової ваги селекторів
+
+ВАГА СЕЛЕКТОРІВ:
+
+* - 0000
+тег - 0001
+.class - 0010
+#id - 0100
+інлайнові стилі (які вказані безпосередньо в html-розмітці всередині тега style) - 1000
+
+Комбінатори (особливі символи, які позначають звязок елементів)
+" "(пробіл) - вказує на нащадків певного тега - general descendent combinator
+, (кома) - вказує декілька селекторів списком (неважливо які селектори) - list combinator
+> - дочірні елементи - child selector
+~ - загальний комбінатор сімблінгів(які нижче в потоці за вибрані елементи) - general sibling selector
++ - кобмінатор найближчого сімблінга - next sibling selectorWW
+*/
