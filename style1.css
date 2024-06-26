@@ -448,7 +448,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
         background-position: bottom;
-        width: 212vw;
+        width: 202vw;
         height: 120vh;
         display: flex;
         flex-direction: row;
@@ -489,9 +489,8 @@ body {
         align-items: center;
         padding-top: 8em;
         padding-bottom: 8em;
-        padding-left: 12em;
-        padding-right: 6em;
-        width: 120vw;
+        padding-left: 13em;
+        width: 80vw;
         text-align: center;
     }
     .description-block{
@@ -503,7 +502,7 @@ body {
         flex-direction: column;
         margin-bottom: 2.5em;
         margin-left: 2em;
-        width: 190vw;
+        width: 180vw;
         height: 145vh;
         text-align: center;
         padding-bottom: 3.5em;
@@ -526,7 +525,7 @@ body {
         display: flex;
         align-items: center;
         margin-bottom: 8em;
-        margin-left: -3.5em;
+        margin-left: -12em;
     }
     .block-content{
         display: flex;
@@ -583,7 +582,7 @@ body {
     
     
     .back-mission{
-        width: 204vw;
+        width: 190vw;
         height: 50vh;
         display: flex;
         flex-direction: row;
@@ -607,7 +606,7 @@ body {
     
     .img-mission1{
         position: absolute;
-        margin-left: 36em;
+        margin-left: 29em;
         width: 50vw;
         height: 50vh;
         z-index: 2;
@@ -616,7 +615,7 @@ body {
     
     .img-mission2{
         position: absolute;
-        margin-left: 35em;
+        margin-left: 30em;
         width: 60vw;
         height: 45vh;
         z-index: 1;
@@ -635,7 +634,7 @@ body {
     .donats-header-text{
         width: 100vw;
         height: 50vh;
-        margin-left: 33em;
+        margin-left: 26em;
         text-align: center;
     }
     
@@ -655,7 +654,7 @@ body {
         margin-bottom: 0.85em;
         text-align: center;
         margin-top: -3em;
-        margin-left: 24em;
+        margin-left: 20em;
         width: 80vw;
     }
     
@@ -665,7 +664,7 @@ body {
         align-items: center;
         font-size: 3em;
         margin-bottom: 1em;
-        padding-left: 11em;
+        padding-left: 9em;
     }
     
     .line{
@@ -689,12 +688,12 @@ body {
         width: 40vw;
         font-size: 0.85em;
         margin-bottom: 8em;
-        margin-right: 5em;
+        margin-right: 12em;
     }
     
     .footer{
         background-color: #F9FADF;
-        width: 211vw;
+        width: 202vw;
         height: 250vh;
         font-size: 20px;
         padding-bottom: 8em;
@@ -709,7 +708,7 @@ body {
     
     .contacts-header{
         font-size: 3em;
-        margin-left: 7.5em;
+        margin-left: 6.5em;
         margin-top: 1em;
     }
     
@@ -718,7 +717,7 @@ body {
     }
     
     .contacts-info{
-        margin-left: 22em;
+        margin-left: 20em;
         margin-top: 3em;
         width: 60vw;
         height: 60vh;
@@ -752,7 +751,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        width: 190vw;
+        width: 185vw;
         height: 170vh;
         background-color: #FFFFFF;
         margin-left: 2.5em;
@@ -805,7 +804,7 @@ body {
     }
 
     .header-button{
-        margin-left: -14em;
+        margin-left: -16em;
     }
 }
 
