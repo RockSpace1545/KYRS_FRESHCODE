@@ -400,9 +400,8 @@ body {
     .header-container{
         display: flex;
         align-items: center;
-        padding: 2.2em, 3.94em;
         justify-content: space-between;
-        padding: 8em 3.94em;
+        padding: 3em 3.94em;
         position: fixed;
         width: 205vw;
         background-color: white;
@@ -449,7 +448,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
         background-position: bottom;
-        width: 230%;
+        width: 212vw;
         height: 120vh;
         display: flex;
         flex-direction: row;
@@ -491,7 +490,7 @@ body {
         padding-top: 8em;
         padding-bottom: 8em;
         padding-left: 12em;
-        padding-right: 10.9em;
+        padding-right: 6em;
         width: 120vw;
         text-align: center;
     }
@@ -503,17 +502,23 @@ body {
         align-items: center;
         flex-direction: column;
         margin-bottom: 2.5em;
-        margin-left: 3.55em;
-        margin-right: 3.55em;
-        width: 200vw;
+        margin-left: 2em;
+        width: 190vw;
+        height: 145vh;
         text-align: center;
         padding-bottom: 3.5em;
     }
-    .image{
-        width: 85vw;
-        height: 60vh;
-        padding-bottom: 2em;
-        padding-left: 6em;
+    .image-block{
+        display: inline-block;
+        border-radius: 3%; 
+        overflow: hidden;  
+        margin-left: 3em;   
+    }
+    
+    .image-block img {
+        display: block;
+        width: 120vw;
+        height: auto;
     }
     
     .button-block{
@@ -578,7 +583,7 @@ body {
     
     
     .back-mission{
-        width: 210vw;
+        width: 204vw;
         height: 50vh;
         display: flex;
         flex-direction: row;
@@ -586,8 +591,7 @@ body {
         background-color:#F1FDFF;
         margin-top: 10em;
         margin-bottom: 8.14em;
-        margin-left: 3.22em;
-        margin-right: 3.22em;
+        margin-left: 2em;
         position: relative;
         font-size: 20px;
     }
@@ -690,9 +694,10 @@ body {
     
     .footer{
         background-color: #F9FADF;
-        width: 225vw;
-        height: 120vh;
+        width: 211vw;
+        height: 250vh;
         font-size: 20px;
+        padding-bottom: 8em;
     }
     
     .contacts{
@@ -704,7 +709,7 @@ body {
     
     .contacts-header{
         font-size: 3em;
-        margin-right: 5em;
+        margin-left: 7.5em;
         margin-top: 1em;
     }
     
@@ -713,9 +718,10 @@ body {
     }
     
     .contacts-info{
+        margin-left: 22em;
         margin-top: 3em;
-        width: 20vw;
-        height: 20vh;
+        width: 60vw;
+        height: 60vh;
     }
     
     .contacts-text{
@@ -723,13 +729,13 @@ body {
     }
     
     .contacts-phone{
-        width: 2vw;
+        width: 6vw;
         height: 4vh;
         margin-bottom: 0.45em;
     }
     
     .contacts-telegram{
-        width: 2vw;
+        width: 6vw;
         height: 4vh;
         margin-top: 2.85em;
         margin-right: 0.8em;
@@ -737,26 +743,28 @@ body {
     }
     
     .contacts-whatsapp{
-        width: 2vw;
+        width: 6vw;
         height: 4vh;
     }
     
     .mailing-list{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
-        width: 92vw;
-        height: 60vh;
+        justify-content: flex-start;
+        width: 190vw;
+        height: 170vh;
         background-color: #FFFFFF;
-        margin-left: 3.55em;
-        margin-top: 5em;
+        margin-left: 2.5em;
+        margin-top: -3em;
     }
     
     .image-email{
-        width: 33.364vw;
-        height: 47.7vh;
+        width: 100vw;
+        height: 50vh;
         margin-top: 1em;
+        margin-left: 12em;
+        margin-bottom: 5em;
     }
     
     .mailing-list-info{
@@ -764,32 +772,40 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: 3em;
-        width: 30vw;
+        width: 60vw;
         height: 15vh;
-        margin-left: 16em;
+        margin-left: 19em;
     }
     
     .mailing-list-text{
         font-size: 1.35em;
-        margin-bottom: 1.95em;
+        margin-bottom: 2.5em;
+    }
+
+    .form-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .yellow-button{
-        width: 32vw;
+        width: 45vw;
         height: 8vh;
         background-color: #F9FADF;
         text-transform: none;
         margin-bottom: 1.55em;
         text-align: left;
+        margin-left: -1em;
     }
     
     .follow-button{
-        width: 32vw;
-        height: 8vh;
+        width: 60vw;
+        height:12vh;
+        margin-left: -1em;
     }
 
     .header-button{
-        margin-left: 30em;
+        margin-left: -14em;
     }
 }
 
