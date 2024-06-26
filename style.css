@@ -50,6 +50,7 @@ body {
     border: 0px;
     width: 15vw;
     height: 7vh;
+    font-family: Montserrat;
 }
 /* First Screen */
 .first-screen{
@@ -183,43 +184,45 @@ body {
 
 .back-mission{
     width: 93vw;
-    height: 24vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color:#F1FDFF;
-    margin-top: 42em;
+    margin-top: 20em;
     margin-bottom: 8.14em;
     margin-left: 3.22em;
     margin-right: 3.22em;
     position: relative;
+    font-size: 27px;
 }
 
 .text-mission{
-    width: 18vw;
+    width: 30vw;
     height: 4.8vh;
-    padding-left: 6.5em;
-    padding-top: 3.33em;
+    padding-left: 3em;
+    padding-top: 1em;
     padding-bottom: 3.33em;
     padding-right: 3.62em;
+    font-size: 1em;
 }
 
 .img-mission1{
     position: absolute;
-    margin-left: 60.81em;
+    margin-left: 35.81em;
     width: 32vw;
     height: 78vh;
     z-index: 2;
-    padding-bottom: 31em;
+    padding-bottom: 13em;
 }
 
 .img-mission2{
     position: absolute;
-    margin-left: 48.25em;
-    width: 52.2vw;
+    margin-left: 29em;
+    width: 50vw;
     height: 45vh;
     z-index: 1;
-    padding-bottom: 15em;
+    padding-bottom: 5em;
 }
 
 .donats{
