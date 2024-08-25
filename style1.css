@@ -3,13 +3,13 @@
     font-family: 'Roboto';
     src: url(./assets/fonts/Roboto/Roboto-Medium.ttf) format("truetype");
 } */
- 
+
 body {
     font-family: Montserrat;
 }
 
 /* Header styles */
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     padding: 2.2em, 3.94em;
@@ -24,23 +24,25 @@ body {
     z-index: 3;
 }
 
-.menu-list{
+.menu-list {
     display: flex;
     align-items: center;
 }
-.menu-item{
+
+.menu-item {
     margin-left: 3.1em;
 }
 
-.link{
+.link {
     font-weight: 400;
     font-size: 1.125em;
     color: #000000;
     text-decoration: none;
 }
 
-.blue-button{
-    text-transform: uppercase; /* контент стає написанний капслоком */
+.blue-button {
+    text-transform: uppercase;
+    /* контент стає написанний капслоком */
     font-weight: 400;
     font-size: 1.125em;
     background-color: #7AE5FD;
@@ -52,11 +54,13 @@ body {
     height: 7vh;
     font-family: Montserrat;
 }
+
 /* First Screen */
-.first-screen{
+.first-screen {
     background-image: url('./assets/images/Frame121461.png');
     background-repeat: no-repeat;
-    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    background-size: cover;
+    /* розтягти картинку щоб займала весь простір який нам треба */
     background-position: bottom;
     width: 100%;
     height: 100vh;
@@ -66,12 +70,12 @@ body {
     margin-top: 15vh;
 }
 
-.first-screen-container{
+.first-screen-container {
     width: 35vw;
     padding-left: 5.25em;
 }
 
-.main-title{
+.main-title {
     font-weight: 800;
     font-size: 4.06em;
     color: #FFFFFF;
@@ -79,7 +83,7 @@ body {
     margin-bottom: 0.2em;
 }
 
-.main-descpirtion{
+.main-descpirtion {
     font-weight: 400;
     font-size: 1.25em;
     margin-bottom: 1em;
@@ -88,11 +92,11 @@ body {
 
 
 /* Description Screen  */
-.description-screen{
+.description-screen {
     font-size: 20px;
 }
 
-.description-title{
+.description-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,10 +106,12 @@ body {
     padding-right: 10.9em;
     width: 56vw;
 }
-.description-block{
-    background-color:#F1FDFF;
+
+.description-block {
+    background-color: #F1FDFF;
     background-repeat: no-repeat;
-    background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
+    background-size: cover;
+    /* розтягти картинку щоб займала весь простір який нам треба */
     display: flex;
     align-items: center;
     margin-bottom: 2.5em;
@@ -113,10 +119,11 @@ body {
     margin-right: 3.55em;
     height: 68vh;
 }
-.image-block{
+
+.image-block {
     display: inline-block;
-    border-radius: 3%; 
-    overflow: hidden;     
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .image-block img {
@@ -125,13 +132,14 @@ body {
     height: auto;
 }
 
-.button-block{
+.button-block {
     flex-direction: column;
     display: flex;
     align-items: center;
     margin-bottom: 8em;
 }
-.block-content{
+
+.block-content {
     display: flex;
     flex-direction: column;
     padding-top: 6em;
@@ -140,41 +148,46 @@ body {
     padding-right: 18em;
     width: 26vw;
 }
-.description-header{
+
+.description-header {
     font-weight: 400;
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: 0.2em;
     padding-left: 2em;
 }
-.description-text1{
+
+.description-text1 {
     font-weight: 400;
     font-size: 1.35em;
     margin-bottom: 0.3em;
 }
-.description-text2{
+
+.description-text2 {
     font-weight: 400;
-    color:#73A6B1;
+    color: #73A6B1;
 }
-.description-block-header{
+
+.description-block-header {
     font-weight: 400;
     font-size: 2.875em;
     text-transform: uppercase;
 }
 
-.description-block-header1{
+.description-block-header1 {
     font-weight: 400;
     font-size: 2.875em;
     text-transform: uppercase;
     width: 32vw;
 }
 
-.description-block-text{
+.description-block-text {
     width: 29vw;
     margin-top: 0.5em;
     font-weight: 400;
 }
-.white-button{
+
+.white-button {
     background-color: #FFFFFF;
     margin-left: 0;
 }
@@ -182,13 +195,13 @@ body {
 /* Our Mission */
 
 
-.back-mission{
+.back-mission {
     width: 93vw;
     height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color:#F1FDFF;
+    background-color: #F1FDFF;
     margin-top: 20em;
     margin-bottom: 8.14em;
     margin-left: 3.22em;
@@ -197,7 +210,7 @@ body {
     font-size: 27px;
 }
 
-.text-mission{
+.text-mission {
     width: 30vw;
     height: 4.8vh;
     padding-left: 3em;
@@ -207,7 +220,7 @@ body {
     font-size: 1em;
 }
 
-.img-mission1{
+.img-mission1 {
     position: absolute;
     margin-left: 35.81em;
     width: 32vw;
@@ -216,7 +229,7 @@ body {
     padding-bottom: 13em;
 }
 
-.img-mission2{
+.img-mission2 {
     position: absolute;
     margin-left: 29em;
     width: 50vw;
@@ -225,7 +238,7 @@ body {
     padding-bottom: 5em;
 }
 
-.donats{
+.donats {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,30 +247,30 @@ body {
     margin-top: 10em;
 }
 
-.donats-header-text{
+.donats-header-text {
     width: 60vw;
     height: 10vh;
     margin-left: 8em;
 }
 
-.donats-header{
+.donats-header {
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: 0.2em;
     margin-left: 0.5em;
 }
 
-.donats-text{
+.donats-text {
     color: #73A6B1;
 }
 
-.goal-text{
+.goal-text {
     font-size: 1.35em;
     margin-top: 2em;
     margin-bottom: 0.85em;
 }
 
-.our-goal{
+.our-goal {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -265,70 +278,70 @@ body {
     margin-bottom: 1em;
 }
 
-.line{
+.line {
     height: 7vh;
     border: 1.5px solid #9AD2DE;
 }
 
-.goal-number1{
+.goal-number1 {
     margin-right: 0.15em;
 }
 
-.goal-number2{
+.goal-number2 {
     margin: 0em 0.2em;
 }
 
-.goal-number3{
+.goal-number3 {
     margin-left: 0.15em;
 }
 
-.goal-button{
+.goal-button {
     width: 16vw;
     font-size: 0.85em;
     margin-bottom: 8em;
 }
 
-.footer{
+.footer {
     background-color: #F9FADF;
     width: 99vw;
     height: 120vh;
     font-size: 20px;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
 
-.contacts-header{
+.contacts-header {
     font-size: 3em;
     margin-right: 5em;
     margin-top: 1em;
 }
 
-.phone{
+.phone {
     font-weight: 700;
 }
 
-.contacts-info{
+.contacts-info {
     margin-top: 3em;
     width: 20vw;
     height: 20vh;
 }
 
-.contacts-text{
+.contacts-text {
     margin-left: 0.3em;
 }
 
-.contacts-phone{
+.contacts-phone {
     width: 2vw;
     height: 4vh;
     margin-bottom: 0.45em;
 }
 
-.contacts-telegram{
+.contacts-telegram {
     width: 2vw;
     height: 4vh;
     margin-top: 2.85em;
@@ -336,12 +349,12 @@ body {
     margin-bottom: 0.2;
 }
 
-.contacts-whatsapp{
+.contacts-whatsapp {
     width: 2vw;
     height: 4vh;
 }
 
-.mailing-list{
+.mailing-list {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -353,13 +366,13 @@ body {
     margin-top: 5em;
 }
 
-.image-email{
+.image-email {
     width: 33.364vw;
     height: 47.7vh;
     margin-top: 1em;
 }
 
-.mailing-list-info{
+.mailing-list-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -369,12 +382,12 @@ body {
     margin-left: 16em;
 }
 
-.mailing-list-text{
+.mailing-list-text {
     font-size: 1.35em;
     margin-bottom: 1.95em;
 }
 
-.yellow-button{
+.yellow-button {
     width: 27.2vw;
     height: 3vh;
     background-color: #F9FADF;
@@ -383,429 +396,9 @@ body {
     text-align: left;
 }
 
-.follow-button{
+.follow-button {
     width: 32vw;
     height: 8vh;
-}
-
-@media screen and (max-width: 501px){
-    /* .description-block{
-        flex-direction: column;
-    } */
-    body {
-        font-family: Montserrat;
-    }
-    
-    /* Header styles */
-    .header-container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 3em 3.94em;
-        position: fixed;
-        width: 205vw;
-        background-color: white;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 3;
-    }
-    
-    .menu-list{
-        display: flex;
-        align-items: center;
-    }
-    .menu-item{
-        font-weight: 400;
-        font-size: 1.125em;
-        margin-left: 3.1em;
-        display: none;
-    }
-
-    .item{
-        display: block;
-    }
-    
-    .blue-button{
-        text-transform: uppercase; /* контент стає написанний капслоком */
-        font-weight: 400;   
-        font-size: 1.125em;
-        background-color: #7AE5FD;
-        padding: 1.15em 1.94em;
-        border-radius: 4.8rem;
-        margin-left: 42em;
-        border: 0px;
-        width: 40vw;
-        height: 12vh;
-        font-family: Montserrat;
-    }
-    .header-button{
-        margin-left: 42em;
-    }
-    /* First Screen */
-    .first-screen{
-        background-image: url('./assets/images/Frame121461.png');
-        background-repeat: no-repeat;
-        background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
-        background-position: bottom;
-        width: 202vw;
-        height: 120vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 15vh;
-    }
-    
-    .first-screen-container{
-        width: 150vw;
-        padding-left: 5.25em;
-    }
-    
-    .main-title{
-        font-weight: 800;
-        font-size: 3.5em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        margin-bottom: 0.2em;
-        margin-top: 2.5em;
-    }
-    
-    .main-descpirtion{
-        font-weight: 400;
-        font-size: 1.5em;
-        margin-bottom: 1em;
-        width: 60vw;
-    }
-    
-    
-    /* Description Screen  */
-    .description-screen{
-        font-size: 25px;
-    }
-    
-    .description-title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 8em;
-        padding-bottom: 8em;
-        padding-left: 13em;
-        width: 80vw;
-        text-align: center;
-    }
-    .description-block{
-        background-color:#F1FDFF;
-        background-repeat: no-repeat;
-        background-size: cover; /* розтягти картинку щоб займала весь простір який нам треба */
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 2.5em;
-        margin-left: 2em;
-        width: 180vw;
-        height: 145vh;
-        text-align: center;
-        padding-bottom: 3.5em;
-    }
-    .image-block{
-        display: inline-block;
-        border-radius: 3%; 
-        overflow: hidden;  
-        margin-left: 3em;   
-    }
-    
-    .image-block img {
-        display: block;
-        width: 120vw;
-        height: auto;
-    }
-    
-    .button-block{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        margin-bottom: 8em;
-        margin-left: -12em;
-    }
-    .block-content{
-        display: flex;
-        flex-direction: column;
-        padding-top: 6em;
-        padding-bottom: 3em;
-        padding-left: 5em;
-        padding-right: 18em;
-        width: 26vw;
-    }
-    .description-header{
-        font-weight: 400;
-        font-size: 2.5em;
-        text-transform: uppercase;
-        margin-bottom: 0.2em;
-        padding-right: 2em;
-        text-align: center;
-    }
-    .description-text1{
-        font-weight: 400;
-        font-size: 1.35em;
-        margin-bottom: 0.3em;
-    }
-    .description-text2{
-        font-weight: 400;
-        color:#73A6B1;
-    }
-    .description-block-header{
-        font-weight: 400;
-        font-size: 2.25em;
-        text-transform: uppercase;
-        width: 100vw;
-    }
-    
-    .description-block-header1{
-        font-weight: 400;
-        font-size: 2.25em;
-        text-transform: uppercase;
-        width: 100vw;
-    }
-    
-    .description-block-text{
-        width: 29vw;
-        margin-top: 0.5em;
-        font-weight: 400;
-        width: 100vw;
-    }
-    .white-button{
-        background-color: #FFFFFF;
-        margin-left: 0;
-    }
-    
-    /* Our Mission */
-    
-    
-    .back-mission{
-        width: 190vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color:#F1FDFF;
-        margin-top: 10em;
-        margin-bottom: 8.14em;
-        margin-left: 2em;
-        position: relative;
-        font-size: 20px;
-    }
-    
-    .text-mission{
-        width: 80vw;
-        height: 4.8vh;
-        padding-left: 2em;
-        padding-top: 0.5em;
-        padding-bottom: 3.33em;
-        font-size: 1.25em;
-    }
-    
-    .img-mission1{
-        position: absolute;
-        margin-left: 29em;
-        width: 50vw;
-        height: 50vh;
-        z-index: 2;
-        padding-bottom: 5em;
-    }
-    
-    .img-mission2{
-        position: absolute;
-        margin-left: 30em;
-        width: 60vw;
-        height: 45vh;
-        z-index: 1;
-        padding-bottom: 2em;
-    }
-    
-    .donats{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: 10em;
-    }
-    
-    .donats-header-text{
-        width: 100vw;
-        height: 50vh;
-        margin-left: 26em;
-        text-align: center;
-    }
-    
-    .donats-header{
-        font-size: 2.5em;
-        text-transform: uppercase;
-        margin-bottom: 0.2em;
-        margin-left: 0.5em;
-    }
-    
-    .donats-text{
-        color: #73A6B1;
-    }
-    
-    .goal-text{
-        font-size: 1.35em;
-        margin-bottom: 0.85em;
-        text-align: center;
-        margin-top: -3em;
-        margin-left: 20em;
-        width: 80vw;
-    }
-    
-    .our-goal{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-size: 3em;
-        margin-bottom: 1em;
-        padding-left: 9em;
-    }
-    
-    .line{
-        height: 7vh;
-        border: 1.5px solid #9AD2DE;
-    }
-    
-    .goal-number1{
-        margin-right: 0.15em;
-    }
-    
-    .goal-number2{
-        margin: 0em 0.2em;
-    }
-    
-    .goal-number3{
-        margin-left: 0.15em;
-    }
-    
-    .goal-button{
-        width: 40vw;
-        font-size: 0.85em;
-        margin-bottom: 8em;
-        margin-right: 12em;
-    }
-    
-    .footer{
-        background-color: #F9FADF;
-        width: 202vw;
-        height: 250vh;
-        font-size: 20px;
-        padding-bottom: 8em;
-    }
-    
-    .contacts{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-    
-    .contacts-header{
-        font-size: 3em;
-        margin-left: 6.5em;
-        margin-top: 1em;
-    }
-    
-    .phone{
-        font-weight: 700;
-    }
-    
-    .contacts-info{
-        margin-left: 20em;
-        margin-top: 3em;
-        width: 60vw;
-        height: 60vh;
-    }
-    
-    .contacts-text{
-        margin-left: 0.3em;
-    }
-    
-    .contacts-phone{
-        width: 6vw;
-        height: 4vh;
-        margin-bottom: 0.45em;
-    }
-    
-    .contacts-telegram{
-        width: 6vw;
-        height: 4vh;
-        margin-top: 2.85em;
-        margin-right: 0.8em;
-        margin-bottom: 0.2;
-    }
-    
-    .contacts-whatsapp{
-        width: 6vw;
-        height: 4vh;
-    }
-    
-    .mailing-list{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        width: 185vw;
-        height: 170vh;
-        background-color: #FFFFFF;
-        margin-left: 2.5em;
-        margin-top: -3em;
-    }
-    
-    .image-email{
-        width: 100vw;
-        height: 50vh;
-        margin-top: 1em;
-        margin-left: 12em;
-        margin-bottom: 5em;
-    }
-    
-    .mailing-list-info{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 3em;
-        width: 60vw;
-        height: 15vh;
-        margin-left: 19em;
-    }
-    
-    .mailing-list-text{
-        font-size: 1.35em;
-        margin-bottom: 2.5em;
-    }
-
-    .form-footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .yellow-button{
-        width: 45vw;
-        height: 8vh;
-        background-color: #F9FADF;
-        text-transform: none;
-        margin-bottom: 1.55em;
-        text-align: left;
-        margin-left: -1em;
-    }
-    
-    .follow-button{
-        width: 60vw;
-        height:12vh;
-        margin-left: -1em;
-    }
-
-    .header-button{
-        margin-left: -16em;
-    }
 }
 
 /* 
@@ -831,3 +424,329 @@ id якщо хочемо щоб був один унікальний елеме�
 ~ - загальний комбінатор сімблінгів(які нижче в потоці за вибрані елементи) - general sibling selector
 + - кобмінатор найближчого сімблінга - next sibling selectorWW
 */
+
+@media only screen and (max-width: 460px) {
+
+    .header-container {
+        padding: 2.3em 0.98em;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+    .item {
+        display: block;
+    }
+
+    .blue-button {
+        margin-left: 0;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1em;
+        background-color: #7AE5FD;
+        padding: 1em 1.5em;
+        border-radius: 4.8rem;
+        margin-left: 1.3em;
+        border: 0px;
+        width: 50vw;
+        height: 7vh;
+        font-family: Montserrat;
+    }
+
+    .header-button {
+        margin-left: 0;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1em;
+        background-color: #7AE5FD;
+        padding: 1em 1.5em;
+        border-radius: 4.8rem;
+        margin-left: 1.3em;
+        border: 0px;
+        width: 50vw;
+        height: 7vh;
+        font-family: Montserrat;
+    }
+
+    .first-screen {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-screen-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        padding-left: 1em;
+    }
+
+    .main-title {
+        font-weight: 600;
+        font-size: 2.3em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .main-descpirtion {
+        font-weight: 400;
+        font-size: 1em;
+        margin-bottom: 2em;
+        width: 85vw;
+        text-align: center;
+    }
+
+    .white-button {
+        margin-left: 0;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1em;
+        background-color: #7AE5FD;
+        padding: 1em 1.5em;
+        border-radius: 4.8rem;
+        margin-left: 0;
+        border: 0px;
+        width: 50vw;
+        height: 7vh;
+        font-family: Montserrat;
+    }
+
+    .description-title {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 5em;
+        padding-right: 0;
+    }
+
+    .description-header {
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .description-text1 {
+        text-align: center;
+        margin-bottom: 0.5em;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    .description-text2 {
+        text-align: center;
+        font-size: 0.85em;
+    }
+
+    .description-block {
+        margin: 0;
+    }
+
+    .description-block {
+        flex-direction: column;
+        padding: 2em 0;
+    }
+
+    .block-content {
+        padding: 0;
+        width: 90vw;
+    }
+
+    .description-block-header {
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .description-block-text {
+        width: 90vw;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: 400;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .image-block img {
+        display: block;
+        width: 85vw;
+        height: auto;
+    }
+
+    .description-block-header1 {
+        font-weight: 400;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .button-block {
+        margin: 4em 0;
+    }
+
+    .back-mission {
+        margin: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100vw;
+        height: 53vh;
+        padding-top: 2em;
+    }
+
+    .text-mission {
+        width: 50vw;
+        height: 12vh;
+        padding: 0;
+        padding-left: 2em;
+        font-size: 0.65em;
+        text-align: center;
+    }
+
+    .img-mission1 {
+        margin: 0;
+        width: 50vw;
+        height: 30vh;
+        margin-left: 1.5em;
+        margin-top: 5em;
+        padding: 0;
+    }
+
+    .img-mission2 {
+        margin: 0;
+        width: 70vw;
+        height: 20vh;
+        padding: 0;
+        margin-left: 1.5em;
+        margin-top: 5em;
+    }
+
+    .donats {
+        margin-top: 3em;
+        justify-content: center;
+    }
+
+
+
+    .donats-header-text {
+        margin-left: 0;
+        height: 20vh;
+    }
+
+    .donats-header {
+        margin-left: 0;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    .donats-text {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .goal-text {
+        text-align: center;
+    }
+
+    .blue-button {
+        font-size: 0.7em;
+        margin-left: 0;
+    }
+
+    .footer {
+        height: 150vh;
+    }
+
+    .contacts {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 50vh;
+    }
+
+    .contacts-header {
+        margin-right: 0;
+        font-size: 1.5em;
+    }
+
+    .contacts-info {
+        width: 50vw;
+        margin-top: 2em;
+    }
+
+    .contacts-phone {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .contacts-text {
+        margin-left: 0;
+        width: 50vw;
+        font-size: 0.9em;
+    }
+
+    .contacts-telegram {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .contacts-whatsapp {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .mailing-list {
+        width: 99vw;
+        height: 90vh;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 2em;
+    }
+
+    .image-email {
+        width: 70vw;
+        height: 25vh;
+        margin: 0;
+    }
+
+    .mailing-list-info {
+        width: 70vw;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    .mailing-list-text {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .form-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .yellow-button {
+        width: 60vw;
+        height: 3vh;
+        background-color: #F9FADF;
+        text-transform: none;
+        margin-bottom: 1.55em;
+        text-align: left;
+    }
+
+    .follow-button {
+        width: 60vw;
+    }
+}
